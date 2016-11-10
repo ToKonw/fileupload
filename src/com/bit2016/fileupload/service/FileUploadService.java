@@ -53,12 +53,11 @@ public class FileUploadService {
 		fileName += calendar.get(Calendar.YEAR);
 		fileName += calendar.get(Calendar.MONTH)+1;
 		fileName += calendar.get(Calendar.DATE);
-		fileName += calendar.get(Calendar.HOUR);
+		fileName += calendar.get(Calendar.HOUR_OF_DAY);
 		fileName += calendar.get(Calendar.MINUTE);
 		fileName += calendar.get(Calendar.SECOND);
 		fileName += calendar.get(Calendar.MILLISECOND);
 		fileName += ("." + extName);
-		
 		return fileName;
 	}
 }

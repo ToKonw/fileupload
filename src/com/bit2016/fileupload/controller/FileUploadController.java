@@ -17,7 +17,6 @@ public class FileUploadController {
 	  
 	@RequestMapping( "/form" )
 	public String form() {
-		System.out.println("!!!");
 		return "form";
 	}
 	
