@@ -9,7 +9,7 @@
 <h1>파일 업로드 예제</h1>
 <form method="post" action="upload" enctype="multipart/form-data">
 	<label>email:</label>
-	<input type="text" name="email" value="kickscar@gmail.com">
+	<input type="text" name="email" value="kickscar@gmail.com" title="이메일 입력">
 	<br><br>
 	
 	<label>파일1:</label>
@@ -21,7 +21,7 @@
 	<br><br>
 	
 	<br>
-	<input type="submit" value="upload">
+	<input type="submit" value="upload" title="업로드">
 </form>
 </body>
 </html>
